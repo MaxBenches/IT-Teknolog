@@ -1,0 +1,1 @@
+print(" Max\n","Damagervej 12N\n","28 40 34 59\n","Lærer")
