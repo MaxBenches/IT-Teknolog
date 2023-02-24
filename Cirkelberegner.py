@@ -2,7 +2,7 @@
 radius = float(input("Hvad er radius på din cirkel i centimeter? "))
 
 # Udregn areal efter given radius
-PI = float(3.1415926535) 
+PI = 3.1415926535 
 
 # Udregn areal og print
 area = PI*radius**2
