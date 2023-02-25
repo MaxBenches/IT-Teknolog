@@ -1,6 +1,6 @@
 # Get height and weight
-height = float(input("Hvad er din højde i meter? "))
-weight = float(input("Hvad er din vægt i kg? "))
+height = float(input("What is your height in meters? "))
+weight = float(input("What is your weight in kilograms? "))
 # Calculate BMI
 bmi = weight/(height**2)
 # Print BMI value and the associated category
