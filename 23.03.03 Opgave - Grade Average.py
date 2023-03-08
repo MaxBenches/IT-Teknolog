@@ -1,4 +1,4 @@
-# This program takes a user specified number of grades abd calculates the average
+# This program takes a user specified number of grades and calculates the average
 
 LIST_START = 0                                                      # End of the loop
 list_end = int(input("How many grades need to be averaged? "))      # Start of the loop
