@@ -1,12 +1,12 @@
 # Import randomisation library
-import random   # Imports random library
+import random   # Imports randomisation library
 
 # Placeholders to initialise "draw" loop
 pc_choice = 0
 player_choice = 0
 
-# Loop to start over if pc and player chooses the same
-while pc_choice == player_choice.lower():
+# Loop to start over if PC and player chooses the same
+while pc_choice == player_choice:
     # Assign a randomly generated number to the PC's choice of rock, paper or scissor
     pc_choice = (random.randrange(1,4))
     if pc_choice == 1:
