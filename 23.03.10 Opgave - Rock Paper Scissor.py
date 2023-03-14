@@ -6,7 +6,7 @@ pc_choice = 0
 player_choice = 0
 
 # Loop to start over if pc and player chooses the same
-while pc_choice == player_choice:
+while pc_choice == player_choice.lower():
     # Assign a randomly generated number to the PC's choice of rock, paper or scissor
     pc_choice = (random.randrange(1,4))
     if pc_choice == 1:
