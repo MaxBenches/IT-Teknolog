@@ -9,13 +9,21 @@
 
 import random
 
-def main():
+def guessTheNumber():
     pcNum = getRandNum()
-    print(pcNum)
-    userGuess = 999
-    while pcNum != userGuess:
+    #print(pcNum)               # Shows the number to be guessed
+    userGuess = 999             # initialise userGuess variable
+    totalGuess = 0              # initialise accumulator
+    while pcNum != userGuess:   # loop as long as userGuess is different from pcNum
         userGuess = getUserGuess()
         checkGuess(pcNum,userGuess)
+        totalGuess += 1
+        #print(totalGuess       # Shows how many guesses for every iteration
+    print(f"You guessed correctly! The number was {pcNum}.")
+    if totalGuess <= 5:
+        print(f"Your total number of guesses: {totalGuess}. Well done!")
+    elif totalGuess > 5:
+        print(f"Your total number of guesses: {totalGuess}. Better luck next time!")
 
 # This function generates a random number
 def getRandNum():
@@ -34,4 +42,4 @@ def checkGuess(pcNum,userGuess):
     elif userGuess > pcNum:
         print("Your guess was higher. Please try again.")
 
-main()
+guessTheNumber()
