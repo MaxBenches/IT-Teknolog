@@ -11,18 +11,18 @@ import random
 
 def guessTheNumber():
     pcNum = getRandNum()
-    #print(pcNum)               # Shows the number to be guessed. Used for testing.
-    userGuess = 999             # initialise userGuess variable
-    totalGuess = 0              # initialise accumulator
-    while pcNum != userGuess:   # loop as long as userGuess is different from pcNum
+    #print(pcNum)                   # Shows the number to be guessed. Used for testing
+    userGuess = 999                 # Initialise userGuess variable
+    totalGuess = 0                  # Initialise accumulator
+    while pcNum != userGuess:       # Loop as long as userGuess is different from pcNum
         userGuess = getUserGuess()
         checkGuess(pcNum,userGuess)
         totalGuess += 1
-        #print(totalGuess       # Shows how many guesses for every iteration. Used for testing.
+        #print(totalGuess           # Shows how many guesses for every iteration. Used for testing
     print(f"\nYou guessed correctly! The number was {pcNum}.")
     if totalGuess <= 5:
         print(f"Your total number of guesses: {totalGuess}. Well done!")
-    elif totalGuess > 5:
+    else:
         print(f"Your total number of guesses: {totalGuess}. Better luck next time!")
 
 
