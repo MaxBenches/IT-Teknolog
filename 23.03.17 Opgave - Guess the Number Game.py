@@ -36,7 +36,7 @@ def getUserGuess():
     userGuess = int(input("Please enter your guess: "))
     return userGuess
 
-# This function checks if the user's guess is higher or lower
+# This function checks if the user's guess is higher or lower than the random number
 def checkGuess(pcNum,userGuess):
     if userGuess < pcNum:
         print("Your guess was too low. Please try again.")
