@@ -31,7 +31,7 @@ minFil.close()
 print(filIndhold)
 """
 
-
+"""
 # Opgave 3
 fil3 = open("number_list.txt", "w")
 filTal = 0
@@ -39,7 +39,7 @@ for i in range(100):
     filTal += 1
     fil3.write(f"{str(filTal)}\n")
 fil3.close()
-
+"""
 
 """
 # Opgave 4
@@ -50,3 +50,12 @@ fil3.close()
 print(filIndhold)
 """
 
+# Opgave 5
+#
+def main():
+    inFile = open("number_list.txt", "r")
+    fileContent = inFile.read()
+    inFile.close()
+    print(fileContent)
+
+main()
