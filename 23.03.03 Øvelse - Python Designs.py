@@ -1,15 +1,15 @@
 import turtle
 
 def main():
-    turtle.setup(640, 480)
-    turtle.speed(5)
+    turtle.setup()
+    turtle.speed(12)
     turtle.hideturtle()
     #turtle.dot(10)
     #drawTriangle(200)
     #drawSquare(200)
     #drawPentagon(200)
     #drawHexagon(200)
-    drawPenis(50)
+    drawPenis(150)
     turtle.done()
 
 def drawTriangle(size):

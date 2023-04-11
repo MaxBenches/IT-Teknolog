@@ -6,10 +6,10 @@ led00 = Pin("LED", Pin.OUT)    # onboard LED
 
 led00.off()
 #led01.off()
-
+"""
 while True:
 	led00.on()
 	sleep(0.3)
 	led00.off()
 	sleep(0.3)
-
+"""
