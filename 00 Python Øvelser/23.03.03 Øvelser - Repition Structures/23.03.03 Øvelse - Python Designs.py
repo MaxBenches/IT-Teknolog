@@ -2,14 +2,14 @@ import turtle
 
 def main():
     turtle.setup()
-    turtle.speed(12)
+    turtle.speed(5)
     turtle.hideturtle()
-    #turtle.dot(10)
+    #turtle.dot(10)             # Nulpunkt
     #drawTriangle(200)
     #drawSquare(200)
     #drawPentagon(200)
     #drawHexagon(200)
-    drawPenis(150)
+    drawPenis(75)
     turtle.done()
 
 def drawTriangle(size):

@@ -1,15 +1,16 @@
-from machine import Pin
-from time import sleep
+# This is a sample Python script.
 
-led00 = Pin("LED", Pin.OUT)    # onboard LED
-#led01 = Pin("GPIO0", Pin.OUT)
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-led00.off()
-#led01.off()
-"""
-while True:
-	led00.on()
-	sleep(0.3)
-	led00.off()
-	sleep(0.3)
-"""
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
